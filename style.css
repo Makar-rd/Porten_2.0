@@ -1030,14 +1030,14 @@ input[type="checkbox"]:checked ~ .text {
 /*Media*/
 @media screen and (max-width: 1560px) {
     .main__left {
-        padding-left: 20px;
+
         width: auto;
         height: auto;
     }
 
     .main__left__clock {
         gap: 20px;
-        padding-right: 20px;
+
     }
 }
 
@@ -1128,24 +1128,32 @@ input[type="checkbox"]:checked ~ .text {
         margin-bottom: 10px;
     }
 
-    .section3__center {
-        margin: 10px 0 10px 0;
+    .section3__center__text-h2 {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding-bottom: 0;
     }
 
     .section3__center__logo {
+        padding-bottom: 25px;
+        padding-top: 25px;
         flex-wrap: wrap;
         justify-content: center;
     }
 
     .section3__center__logo__one {
         flex-basis: 45%;
-        margin-left: 35px;
 
+
+    }
+
+    .section3__center__logo__two {
+        padding-right: 0;
     }
 
     .section3__center__logo__three {
         flex-basis: 45%;
-        margin-bottom: 10px;
+
     }
 
     .section4 {
