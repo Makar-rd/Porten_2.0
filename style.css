@@ -419,6 +419,10 @@ body {
     transform: scale(1.25);
 }
 
+.header__top__reg {
+    display: flex;
+}
+
 .header__top__reg a:active {
     color: rgb(255, 255, 255);
 }
